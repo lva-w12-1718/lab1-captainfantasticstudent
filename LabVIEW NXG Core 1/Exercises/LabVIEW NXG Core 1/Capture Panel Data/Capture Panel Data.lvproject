@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8EBABAAF73A1ACF89333FA048BD82AE4" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="17.0.0.49157" FeatureSetName="DAQmx Support for System Designer" Name="http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel" OldestCompatibleVersion="4.0.0.0" Version="4.0.0.0" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="17.0.0.49152" FeatureSetName="Task" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" Version="1.0.0.0" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/Common/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="Desktop SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Desktop/SystemModel" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="SystemDesigner discovery" Name="http://www.ni.com/SystemDesigner/Discovery" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemDiagram" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="4.7.0.0" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.57948" FeatureSetName="VI SystemDesigner Plugin" Name="http://www.ni.com/SystemDesigner/Vi" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ApplicationVersionInfo Build="4.9.1.57948" Name="LabVIEW NXG" Version="1.0.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition,NationalInstruments.SystemDesigner.SystemDiagram.Moc,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference" Id="3" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramDefinition" Name="SystemDiagram">
+			<SystemDiagram Id="4" SystemDiagramVersion="75" xmlns="http://www.ni.com/SystemDesigner/SystemDiagram">
+				<EnvoyFacadeManager Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+					<MappingManager Id="6" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+						<Instance Id="11" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4" p9:Process.DiscoveryAddress="localhost:daqmx:{776CBA44-9188-11E6-800A-92DAFDB1BE4E}" p9:Process.DiscoveryUserAlias="Sim_cDAQ" p9:Process.HardwareAlias="Sim_cDAQ" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="False" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI cDAQ-9178" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="67" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9236_7382">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9236_7382]NI9236_7382" p9:Process.DiscoveryAddress="localhost:daqmx:{8A99FC57-9B19-11E6-80ED-EE05018F0655}" p9:Process.DiscoveryUserAlias="cDAQ1Mod1" p9:Process.ExternalCalibrationDate="01/01/0001 00:00:00" p9:Process.ExternalCalibrationDueDateDate="01/01/0001 00:00:00" p9:Process.HardwareAlias="cDAQ1Mod1" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="True" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI 9236" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="77" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9213_73E2">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9213_73E2]NI9213_73E2" p9:Process.DiscoveryAddress="localhost:daqmx:{89A97228-9B19-11E6-80ED-EE05018F0655}" p9:Process.DiscoveryUserAlias="cDAQ1Mod2" p9:Process.ExternalCalibrationDate="01/01/0001 00:00:00" p9:Process.ExternalCalibrationDueDateDate="01/01/0001 00:00:00" p9:Process.HardwareAlias="cDAQ1Mod2" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="True" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI 9213" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="87" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9472_7162">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9472_7162]NI9472_7162" p9:Process.DiscoveryAddress="localhost:daqmx:{8A3B8E9D-9B19-11E6-80ED-EE05018F0655}" p9:Process.DiscoveryUserAlias="cDAQ1Mod3" p9:Process.HardwareAlias="cDAQ1Mod3" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="False" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI 9472" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="97" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9263_71B4">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9263_71B4]NI9263_71B4" p9:Process.DiscoveryAddress="localhost:daqmx:{8A0DAEE9-9B19-11E6-80ED-EE05018F0655}" p9:Process.DiscoveryUserAlias="cDAQ1Mod4" p9:Process.ExternalCalibrationDate="01/01/0001 00:00:00" p9:Process.ExternalCalibrationDueDateDate="01/01/0001 00:00:00" p9:Process.HardwareAlias="cDAQ1Mod4" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="True" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI 9263" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="107" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9234_7263">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9234_7263]NI9234_7263" p9:Process.DiscoveryAddress="localhost:daqmx:{850662C6-9B19-11E6-80ED-EE05018F0655}" p9:Process.DiscoveryUserAlias="cDAQ1Mod7" p9:Process.ExternalCalibrationDate="01/01/0001 00:00:00" p9:Process.ExternalCalibrationDueDateDate="01/01/0001 00:00:00" p9:Process.HardwareAlias="cDAQ1Mod7" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="True" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI 9234" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="117" Source="{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9215_71B1">
+							<Symbols p8:Path="[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9215_71B1]NI9215_71B1" p9:Process.DiscoveryAddress="localhost:daqmx:{8A6B11BC-9B19-11E6-80ED-EE05018F0655}" p9:Process.DiscoveryUserAlias="cDAQ1Mod8" p9:Process.ExternalCalibrationDate="01/01/0001 00:00:00" p9:Process.ExternalCalibrationDueDateDate="01/01/0001 00:00:00" p9:Process.HardwareAlias="cDAQ1Mod8" p9:Process.HardwareRevision="" p9:Process.IsSimulated="True" p9:Process.SerialNumber="" p9:Process.SupportsExternalCalibration="True" p9:Process.VendorName="National Instruments" p10:Process.ModelName="NI 9215" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="127" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="win764lvngTD" p9:Process.FirmwareVersion="6.00" p9:Process.HardwareAlias="win764lvngTD" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Professional  (Service Pack 1)" p9:Process.SerialNumber="VMware-56 4d 6d 4d 0b 66 27 41-85 37 5b 1d 11 8a d7 65" p9:Process.SupportsExternalCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="VMware, Inc." p10:Process.ModelName="VMware Virtual Platform" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="147" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth14" p9:Process.HardwareAlias="Intel(R) PRO/1000 MT Network Connection" p9:Process.NetworkConfig.Ipv4Address="192.168.83.173" p9:Process.NetworkConfig.Ipv4DnsServer="192.168.83.2" p9:Process.NetworkConfig.Ipv4Gateway="192.168.83.2" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Instance Id="320" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="Finite Acquisition.gvi" p9:Process.AssociatedIdentifier="318" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
+						<Superimposition Id="7" Name="Root Superimposition">
+							<Superimpose Source="11">
+								<Superimpose Parent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot1" Source="67" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot2" Source="77" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot3" Source="87" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot4" Source="97" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot7" Source="107" />
+								<Superimpose Parent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot8" Source="117" />
+							</Superimpose>
+							<Superimpose Source="127">
+								<Superimpose Parent="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="320" />
+							</Superimpose>
+						</Superimposition>
+					</MappingManager>
+				</EnvoyFacadeManager>
+				<SystemDiagramRootDiagram Id="9">
+					<SystemHardware Bounds="0 0 315 398" Facade="PartsView" HasLayoutManager="True" Id="167" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4">
+						<SystemHardwareGroupDiagram Bounds="0 65 315 40" GroupName="Ports" Id="176">
+							<SystemHardware Bounds="5 15 305 25" Facade="PartsViewLeaf" Id="177" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]USB">
+								<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareGroupDiagram>
+						<SystemHardwareDiagram Bounds="0 105 315 35" Id="168" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot1">
+							<SystemHardware Bounds="5 0 305 35" Facade="PartsView" Id="179" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/67}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9236_7382]NI9236_7382">
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareDiagram>
+						<SystemHardwareDiagram Bounds="0 140 315 35" Id="169" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot2">
+							<SystemHardware Bounds="5 0 305 35" Facade="PartsView" Id="181" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/77}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9213_73E2]NI9213_73E2">
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareDiagram>
+						<SystemHardwareDiagram Bounds="0 175 315 35" Id="170" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot3">
+							<SystemHardware Bounds="5 0 305 35" Facade="PartsView" Id="183" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/87}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9472_7162]NI9472_7162">
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareDiagram>
+						<SystemHardwareDiagram Bounds="0 210 315 35" Id="171" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot4">
+							<SystemHardware Bounds="5 0 305 35" Facade="PartsView" Id="185" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/97}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9263_71B4]NI9263_71B4">
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareDiagram>
+						<SystemHardwareDiagram Bounds="0 245 315 25" Id="172" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot5" />
+						<SystemHardwareDiagram Bounds="0 270 315 25" Id="173" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot6" />
+						<SystemHardwareDiagram Bounds="0 295 315 35" Id="174" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot7">
+							<SystemHardware Bounds="5 0 305 35" Facade="PartsView" Id="187" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/107}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9234_7263]NI9234_7263">
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareDiagram>
+						<SystemHardwareDiagram Bounds="0 330 315 35" Id="175" SystemModelContent="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/Slot8">
+							<SystemHardware Bounds="5 0 305 35" Facade="PartsView" Id="189" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/117}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NI9215_71B1]NI9215_71B1">
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareDiagram>
+						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+						<MoveableCablingTerminal AssociatedSystemHardware="177" BackingPort="{:/11}[{http://www.ni.com/DAQmx.SystemDesigner.Plugin/SystemModel}NIcDAQ9178_74A4]NIcDAQ9178_74A4/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]USB/ExternalPort_UsbConnector" DataType="@52b62a5c15ae4f77950bab85d8f129b7" Hotspot="0 90" Id="178" />
+					</SystemHardware>
+					<SystemHardware Bounds="0 610 315 249" Facade="PartsView" HasLayoutManager="True" Id="191" MainLabel="$aliasName" SubLabel="$hardwareName, $modelName" SystemModelContent="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop">
+						<SystemHardwareGroupDiagram Bounds="0 65 315 170" Id="192">
+							<SystemHardware Bounds="2 0 311 145" Facade="PartsView" Id="193" SystemModelContent="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost">
+								<SystemHardwareGroupDiagram Bounds="0 5 311 90" GroupName="Ports" Id="195">
+									<SystemHardware Bounds="5 15 301 25" Facade="PartsViewLeaf" Id="196" SystemModelContent="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="5 40 301 25" Facade="PartsViewLeaf" Id="198" SystemModelContent="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+									<SystemHardware Bounds="5 65 301 25" Facade="PartsViewLeaf" Id="200" SystemModelContent="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}SerialConnector]SerialConnector">
+										<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+									</SystemHardware>
+								</SystemHardwareGroupDiagram>
+								<SystemHardwareGroupDiagram Bounds="0 95 311 37" GroupName="Software" Id="194" />
+								<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+								<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+							</SystemHardware>
+						</SystemHardwareGroupDiagram>
+						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
+						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
+						<MoveableCablingTerminal AssociatedSystemHardware="196" BackingPort="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/ExternalPort_EthernetConnector" DataType="@52b62a5c15ae4f77950bab85d8f129b7" Hotspot="0 95" Id="197" />
+						<MoveableCablingTerminal AssociatedSystemHardware="198" BackingPort="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector/ExternalPort_UsbConnector" DataType="@52b62a5c15ae4f77950bab85d8f129b7" Hotspot="0 120" Id="199" />
+						<MoveableCablingTerminal AssociatedSystemHardware="200" BackingPort="{:/127}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}SerialConnector]SerialConnector/ExternalPort_SerialConnector" DataType="@52b62a5c15ae4f77950bab85d8f129b7" Hotspot="0 145" Id="201" />
+					</SystemHardware>
+				</SystemDiagramRootDiagram>
+			</SystemDiagram>
+			<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel,SystemDiagramEnumerateTargetService,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy,AnyTarget,ContentKind_{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Process.DesktopHost,InProcessNativeDesktopTarget,NativeTarget,ProcessBackedProjectServiceMetaFactory" Id="147" ModelDefinitionType="NationalInstruments.SystemDesigner.SystemDiagram.SystemDiagramTargetModel" Name="PC">
+				<SystemDiagramTarget xmlns="http://www.ni.com/SystemDesigner/SystemDiagram" />
+				<NameScopingEnvoy Bindings="NativeViLibBindingKeyword,Envoy,DefinitionReference,BuildSpecification,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="148" ModelDefinitionType="BuildSpecification" Name="Interactive">
+					<BuildSpecificationDefinition Id="149" TopLevelComponentRefId="166" xmlns="http://www.ni.com/GComponent.xsd">
+						<CompilerSymbolTable Id="150" xmlns="http://www.ni.com/PlatformFramework" />
+						<ComponentConfigurationReference AssociatedEnvoyId="163" ConfigName="Default" Id="166" />
+						<WeakDefaultComponentConfigurationReference Id="1076" Target="VISA\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1556" Target="AAL_Conditioning\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1557" Target="AAL_Fitting\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1558" Target="AAL_Formula\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1559" Target="AAL_Generation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1560" Target="AAL_Geometry\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1561" Target="AAL_Integral_Differentiation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1562" Target="AAL_Interpolation\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1563" Target="AAL_Linear_Algebra\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1564" Target="AAL_Matrix\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1565" Target="AAL_Measurement\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1566" Target="AAL_Operations\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1567" Target="AAL_Polynomial\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1568" Target="AAL_Probability\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1569" Target="AAL_Resampling\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1570" Target="AAL_SML\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1571" Target="AAL_Statistics\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1572" Target="AAL_Support\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1573" Target="AAL_Transforms\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1574" Target="AAL_Windows\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1575" Target="AAL_Filtering\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1576" Target="AAL_BLAS\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1577" Target="AAL_Special_Func\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1578" Target="AAL_Differential_Equations\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1579" Target="AAL_Optimization\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1580" Target="AAL_Zeros\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1582" Target="AAL_Conditioning_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1583" Target="AAL_Filtering_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1584" Target="AAL_Fitting_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1585" Target="AAL_Generation_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1586" Target="AAL_Interpolation_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1587" Target="AAL_Linear_Algebra_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1588" Target="AAL_Measurement_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1589" Target="AAL_Operations_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1590" Target="AAL_Resampling_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1591" Target="AAL_Statistics_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1592" Target="AAL_Support_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1593" Target="AAL_Transforms_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1594" Target="AAL_Windows_Base\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1596" Target="Control_Controller\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1597" Target="Control_DesignPID\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1598" Target="Control_Linear\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1599" Target="Control_Nonlinear\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1600" Target="Control_PIDGain\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1601" Target="Control_SignalGeneration\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1602" Target="Control_Conversion\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1604" Target="DAQmx\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1606" Target="NI\.G\ Core\.Configuration\ File\ \(INI\)\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1607" Target="NI\.G\ Core\.Data\ Type\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1608" Target="NI\.G\ Core\.Error\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1609" Target="NI\.G\ Core\.File\ IO\ \(General\)\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1610" Target="NI\.G\ Core\.Input\ Devices\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1611" Target="NI\.G\ Core\.Libraries\ and\ Executables\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1612" Target="NI\.G\ Core\.Numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1613" Target="NI\.G\ Core\.Operating\ System\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1614" Target="NI\.G\ Core\.Registry\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1615" Target="NI\.G\ Core\.Rendezvous\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1616" Target="NI\.G\ Core\.Semaphore\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1617" Target="NI\.G\ Core\.SMTP\ Email\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1618" Target="NI\.G\ Core\.Sound\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1619" Target="NI\.G\ Core\.Strings\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1620" Target="NI\.G\ Core\.TCP\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1621" Target="NI\.G\ Core\.TDMS\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1622" Target="NI\.G\ Core\.Timed\ Loop\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1623" Target="NI\.G\ Core\.Timing\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1624" Target="NI\.G\ Core\.URL\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1625" Target="NI\.G\ Core\.Waveform\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1626" Target="NI\.G\ Core\.Zip\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1627" Target="NI\.G\ Core\.Localization\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1628" Target="NI\.G\ Core\.User\ Interface\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1629" Target="NI\.G\ Core\.Data\ Communications\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1631" Target="Keysight344XX\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1755" Target="openg\.library\.array\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1756" Target="openg\.library\.boolean\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1757" Target="openg\.library\.comparison\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1758" Target="openg\.library\.error\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1759" Target="openg\.library\.file\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1760" Target="openg\.library\.largefile\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1761" Target="openg\.library\.md5\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1762" Target="openg\.library\.numeric\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1763" Target="openg\.library\.string\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1764" Target="openg\.library\.time\.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1765" Target="openg\.library\.variantdata\.gcomp" />
+					</BuildSpecificationDefinition>
+					<EmbeddedDefinitionReference Bindings="ComponentMoC,Envoy,DefinitionReference,SparseEnvoyManager,EmbeddedReference" Id="163" ModelDefinitionType="SparseEnvoyManager" Name="Default\ Component" Reparentable="False">
+						<SparseEnvoyManager Id="164">
+							<SparseEnvoyManagerDependencySource Id="165" Target=":NullTarget:Default\ Component" />
+						</SparseEnvoyManager>
+						<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask,EmbeddedReference" Id="307" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask" Name="DAQmx\.AggregateTask">
+							<AggregateTask xmlns="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" />
+						</EmbeddedDefinitionReference>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="318" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Finite\ Acquisition\.gvi" StoragePath="Finite Acquisition.gvi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference,RcxRepositoryManagerDefinition" Id="205" ModelDefinitionType="RepositoryManagerDefinition" Name="rcx\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="" />
+						<SourceFileReference Bindings="RcxNamespaceKeyword,Envoy,DefinitionReference,NationalInstruments.VI.SourceModel.UdrNamespace,FileReference,SourceFileReference,EnvoyManager" Id="309" ModelDefinitionType="NationalInstruments.VI.SourceModel.UdrNamespace" Name="NIDAQ" />
+						<SourceFileReference Bindings="RcxNamespaceKeyword,Envoy,DefinitionReference,NationalInstruments.VI.SourceModel.UdrNamespace,FileReference,SourceFileReference,EnvoyManager" Id="311" ModelDefinitionType="NationalInstruments.VI.SourceModel.UdrNamespace" Name="MXLC" />
+						<SourceFileReference Bindings="RcxNamespaceKeyword,Envoy,DefinitionReference,NationalInstruments.VI.SourceModel.UdrNamespace,FileReference,SourceFileReference,EnvoyManager" Id="1423" ModelDefinitionType="NationalInstruments.VI.SourceModel.UdrNamespace" Name="Ivi" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="206" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="207" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="208" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+						<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="310" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Read\ \(Analog\ 1D\ Wfm\ NChan\ NSamp\ Duration\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,{http://www.ni.com/ExternalCode}SharedLibrary,{http://www.ni.com/ExternalCode}SharedLibrary.Moc,FileReference,SourceFileReference,EnvoyManager" Id="312" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="DaqmxApi\.sli" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="313" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Fill\ In\ Error\ Info\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="314" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Create\ Channel\ \(AI\-Voltage\-Basic\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="315" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Read\ \(Analog\ 1D\ Wfm\ NChan\ NSamp\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="316" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Start\ Task\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="317" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Clear\ Task\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="324" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Timing\ \(Sample\ Clock\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="325" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Read\ \(Analog\ Wfm\ 1Chan\ NSamp\ Duration\)\.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1111" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DAQmx\ Read\ \(Analog\ Wfm\ 1Chan\ NSamp\)\.gvi" />
+						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="1418" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="DaqmxTypeudrDAQPhysChan_SingleArray\.gtype" />
+						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="1419" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="DaqmxTypeclusterPulseFreqArray\.gtype" />
+						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="1420" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="DaqmxTypeclusterPulseTicksArray\.gtype" />
+						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="1421" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="DaqmxTypeclusterPulseTimeArray\.gtype" />
+						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,NationalInstruments.MocCommon.Modeling.TypeDefinition,FileReference,SourceFileReference" Id="1422" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="DaqmxTypeStringArray\.gtype" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="1112" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+						<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1035" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-VISA\-Base\-src\-17\.0\.0\.niaddon" StoragePath="ref://ni/VISA/Base-src/17.0.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1544" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-advanced\-src\-1\.0\.3\.11\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.3.11" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1546" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.3\.9\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.3.9" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1548" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.3\.6\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.3.6" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1550" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-DAQmx\-LV\-Support\-src\-17\.0\.0\.niaddon" StoragePath="ref://NI/DAQmx/LV-Support-src/17.0.0" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1552" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.2\.25\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.2.25" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1554" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-InstrumentDriver\-Keysight344XX\-src\-17\.2\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.2" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1753" ModelDefinitionType="PackageInterfaceDefinition" Name="OpenG\-Library\-OpenGLibrary\-src\-1\.0\.0\.0\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/1.0.0.0" />
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="202" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Common" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Common&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="203" ModelDefinitionType="RepositoryManagerDefinition" Name="instr\.lib" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\instr.lib&quot;" />
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,RepositoryManagerDefinition,EmbeddedReference" Id="204" ModelDefinitionType="RepositoryManagerDefinition" Name="vi\.lib\.Native" Reparentable="False">
+					<RepositoryManagerDefinition Location="&quot;&lt;AppDir&gt;\\Resources\\vi.lib\\Native&quot;" />
+				</EmbeddedDefinitionReference>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,NullTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="10" ModelDefinitionType="NullTarget" Name="NullTarget">
+			<NullTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,ComponentDefinition,NationalInstruments.Component.Moc,EmbeddedReference,ComponentBaseType_Library" Id="151" ModelDefinitionType="ComponentDefinition" Name="Default\ Component">
+				<ComponentDefinition DefaultConfigurationName="Default" Id="152" RootNamespaceId="151" xmlns="http://www.ni.com/GComponent.xsd">
+					<Icon Id="153" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]40" Id="154" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="155" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="156" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="157" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Id="158" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Default Component" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="159" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<CompilerSymbolTable Id="160" xmlns="http://www.ni.com/PlatformFramework" />
+					<ComponentConfiguration Id="161" Name="Default">
+						<CompilerSymbolTable Id="162" xmlns="http://www.ni.com/PlatformFramework" />
+					</ComponentConfiguration>
+				</ComponentDefinition>
+				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask,EmbeddedReference" Id="308" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask" Name="DAQmx\.AggregateTask">
+					<AggregateTask xmlns="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" />
+				</EmbeddedDefinitionReference>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="319" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Finite\ Acquisition\.gvi" StoragePath="Finite Acquisition.gvi" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,PackageReferencesDefinition,EmbeddedReference,{http://www.ni.com/PlatformFramework}ByReferenceRoot" Id="209" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
+				<PackageReferencesDefinition xmlns="http://www.ni.com/GComponent.xsd">
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="VISA.gcomp" Id="1077" PackageInterfaceDefinitionEnvoyId="1036" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="AAL_Conditioning.gcomp,AAL_Fitting.gcomp,AAL_Formula.gcomp,AAL_Generation.gcomp,AAL_Geometry.gcomp,AAL_Integral_Differentiation.gcomp,AAL_Interpolation.gcomp,AAL_Linear_Algebra.gcomp,AAL_Matrix.gcomp,AAL_Measurement.gcomp,AAL_Operations.gcomp,AAL_Polynomial.gcomp,AAL_Probability.gcomp,AAL_Resampling.gcomp,AAL_SML.gcomp,AAL_Statistics.gcomp,AAL_Support.gcomp,AAL_Transforms.gcomp,AAL_Windows.gcomp,AAL_Filtering.gcomp,AAL_BLAS.gcomp,AAL_Special_Func.gcomp,AAL_Differential_Equations.gcomp,AAL_Optimization.gcomp,AAL_Zeros.gcomp" Id="1581" PackageInterfaceDefinitionEnvoyId="1545" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="AAL_Conditioning_Base.gcomp,AAL_Filtering_Base.gcomp,AAL_Fitting_Base.gcomp,AAL_Generation_Base.gcomp,AAL_Interpolation_Base.gcomp,AAL_Linear_Algebra_Base.gcomp,AAL_Measurement_Base.gcomp,AAL_Operations_Base.gcomp,AAL_Resampling_Base.gcomp,AAL_Statistics_Base.gcomp,AAL_Support_Base.gcomp,AAL_Transforms_Base.gcomp,AAL_Windows_Base.gcomp" Id="1595" PackageInterfaceDefinitionEnvoyId="1547" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="Control_Controller.gcomp,Control_DesignPID.gcomp,Control_Linear.gcomp,Control_Nonlinear.gcomp,Control_PIDGain.gcomp,Control_SignalGeneration.gcomp,Control_Conversion.gcomp" Id="1603" PackageInterfaceDefinitionEnvoyId="1549" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="DAQmx.gcomp" Id="1605" PackageInterfaceDefinitionEnvoyId="1551" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="NI.G Core.Configuration File (INI).gcomp,NI.G Core.Data Type.gcomp,NI.G Core.Error.gcomp,NI.G Core.File IO (General).gcomp,NI.G Core.Input Devices.gcomp,NI.G Core.Libraries and Executables.gcomp,NI.G Core.Numeric.gcomp,NI.G Core.Operating System.gcomp,NI.G Core.Registry.gcomp,NI.G Core.Rendezvous.gcomp,NI.G Core.Semaphore.gcomp,NI.G Core.SMTP Email.gcomp,NI.G Core.Sound.gcomp,NI.G Core.Strings.gcomp,NI.G Core.TCP.gcomp,NI.G Core.TDMS.gcomp,NI.G Core.Timed Loop.gcomp,NI.G Core.Timing.gcomp,NI.G Core.URL.gcomp,NI.G Core.Waveform.gcomp,NI.G Core.Zip.gcomp,NI.G Core.Localization.gcomp,NI.G Core.User Interface.gcomp,NI.G Core.Data Communications.gcomp" Id="1630" PackageInterfaceDefinitionEnvoyId="1553" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="Keysight344XX.gcomp" Id="1632" PackageInterfaceDefinitionEnvoyId="1555" />
+					<PackageInterfaceDefinitionContents ComponentDefinitionNames="openg.library.array.gcomp,openg.library.boolean.gcomp,openg.library.comparison.gcomp,openg.library.error.gcomp,openg.library.file.gcomp,openg.library.largefile.gcomp,openg.library.md5.gcomp,openg.library.numeric.gcomp,openg.library.string.gcomp,openg.library.time.gcomp,openg.library.variantdata.gcomp" Id="1766" PackageInterfaceDefinitionEnvoyId="1754" />
+				</PackageReferencesDefinition>
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1036" ModelDefinitionType="PackageInterfaceDefinition" Name="ni\-VISA\-Base\-src\-17\.0\.0\.niaddon" StoragePath="ref://ni/VISA/Base-src/17.0.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1545" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-advanced\-src\-1\.0\.3\.11\.niaddon" StoragePath="ref://NI/analysis/advanced-src/1.0.3.11" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1547" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-basic\-src\-1\.0\.3\.9\.niaddon" StoragePath="ref://NI/analysis/basic-src/1.0.3.9" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1549" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-analysis\-control\-src\-1\.0\.3\.6\.niaddon" StoragePath="ref://NI/analysis/control-src/1.0.3.6" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1551" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-DAQmx\-LV\-Support\-src\-17\.0\.0\.niaddon" StoragePath="ref://NI/DAQmx/LV-Support-src/17.0.0" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1553" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-G\-stdlib\-src\-1\.0\.2\.25\.niaddon" StoragePath="ref://NI/G/stdlib-src/1.0.2.25" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1555" ModelDefinitionType="PackageInterfaceDefinition" Name="NI\-InstrumentDriver\-Keysight344XX\-src\-17\.2\.niaddon" StoragePath="ref://NI/InstrumentDriver/Keysight344XX-src/17.2" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,PackageInterfaceDefinition,FileReference,SourceFileReference,EnvoyManager" Id="1754" ModelDefinitionType="PackageInterfaceDefinition" Name="OpenG\-Library\-OpenGLibrary\-src\-1\.0\.0\.0\.niaddon" StoragePath="ref://OpenG/Library/OpenG Library-src/1.0.0.0" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="218" ModelDefinitionType="DataDepot" Name="DataDepot">
+			<DataDepot />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="52b62a5c15ae4f77950bab85d8f129b7">
+			<Composite Id="1" Name="SystemDiagramCable" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

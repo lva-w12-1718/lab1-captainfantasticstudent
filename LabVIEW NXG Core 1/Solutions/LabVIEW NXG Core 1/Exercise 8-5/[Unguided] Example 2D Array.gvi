@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CB9EC10B9A018FF93353D1B837796B51" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6450" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6450" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6450" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6450" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6450" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ApplicationVersionInfo Build="4.9.1.6450" Name="LabVIEW NXG" Version="1.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string][Unguided] Example 2D Array" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="170 105 40 15" DataItem="46" Id="50" Label="51" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int32[,]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="50" Bounds="64 105 101 14" Id="51" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Example 2D Array</p.Text>
+			</NodeLabel>
+			<ArrayIndex Bounds="365 105 40 30" Id="62" Label="64" Terminals="array, c0t0v, c0out" />
+			<ArraySubset Bounds="365 255 40 40" Id="63" Label="65" Terminals="array, subarray, index0, length0" />
+			<NodeLabel AttachedTo="62" Bounds="365 88 66 14" Id="64" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Index Array</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="63" Bounds="365 238 72 14" Id="65" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Array Subset</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<ArrayViewer ArrayElement="[UIModel]48" BaseName="[string]Array" Columns="[int]11" Dimensions="[int]2" FirstIndex="[ArrayElementIndex]0,0" Height="[float]148" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="47" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]53" Left="[float]105" Orientation="[SMOrientation]Vertical" Rows="[int]5" TabIndex="[int]0" Top="[float]71" Value="{DataItemBinding Id=46}" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]635" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0</p.DefaultElementValue>
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="48" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Left="[float]61" MinHeight="[float]24" Name="[string]Child" Top="[float]118" Value="[int]0" ValueType="[Type]Int32" Width="[float]48" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Height="[float]16" Id="53" LabelOwner="[UIModel]47" Left="[float]105" Text="[string]Example 2D Array" Top="[float]51" Width="[float]94" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Int32[,]" Id="46" Name="Example 2D Array" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Array Lengths="4,10" IsBinary="True" Compression="GZip">
+					<BinaryElements>H4sIAAAAAAAEAB3GSRIAIAwCQeIa9eL/P6vJUEWDTNKL5GZunh11FxoWrNiw48CJjis8Hw/eSjVXAAAA</BinaryElements>
+					<BinaryElements>H4sIAAAAAAAEACXGWQ4AIAgDUfwj4oJ6/7MqjE36WikiciO5Gc9To6pfw4YdB050XLjxhPYAQrEeG1cAAAA=</BinaryElements>
+					<BinaryElements>H4sIAAAAAAAEAB3GOQ4AIAwDwdBF0FBwH/9/JiRryWNLEJFn8fVkP9GqWrBiw44DJy7cePCa6QMULhGgVwAAAA==</BinaryElements>
+					<BinaryElements>H4sIAAAAAAAEAB3GyQ0AIAwDwfCL4EMF3Ef/FUKyljy2BBF5Fl9P9hOtqgUrNuw4cOLCjQevmT5y9v7fVwAAAA==</BinaryElements>
+				</Array>
+			</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

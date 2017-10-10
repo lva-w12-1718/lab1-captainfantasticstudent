@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1EE9388D2D16F28DEE813EF57485BA1B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.9.1.5490" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.1" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.5490" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.7" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.5490" FeatureSetName="Common Language Components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.2" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.5490" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.5490" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.5" />
+		<ApplicationVersionInfo Build="4.9.1.5490" Name="LabVIEW NXG" Version="1.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Conditional Logic" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="150 140 40 15" DataItem="14" Id="15" Label="18" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="15" Bounds="150 123 162 14" Id="18" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Current Temperature (deg F)</p.Text>
+			</NodeLabel>
+			<IsGreater Bounds="300 140 30 30" Id="19" />
+			<Wire Id="20" Joints="N(15:Value)|(190,145) N(19:x)|(300,145)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="22" Joints="N(26:Value)|(190,215) h(95) v(-55) N(19:y)|(300,160)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="150 210 40 15" DataItem="23" Id="26" Label="27" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="26" Bounds="150 228 99 14" Id="27" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Threshold (deg F)</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="360 80 405 180" Default="29" Id="28" Selected="30" UserSelectorBounds="158 0 88 17">
+				<CaseStructure.Case Bounds="5 5 395 170" Id="29" Pattern="False">
+					<Literal Bounds="150 35 120 15" DataType="String" Facade="String" Id="46" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Normal operation</p.Data>
+						<StringBehavior TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="47" Joints="N(46:Out)|(270,40) N(39:29)|(391,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 395 170" Id="30" Pattern="True">
+					<OneButtonDialog Bounds="250 115 40 40" Id="33" Label="36" />
+					<Literal Bounds="20 115 220 40" DataType="String" Facade="String" Id="34" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>WARNING! Refer to message for details</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="35" Joints="N(34:Out)|(240,120) N(33:message)|(250,120)" xmlns="http://www.ni.com/PlatformFramework" />
+					<NodeLabel AttachedTo="33" Bounds="250 98 102 14" Id="36" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>One Button Dialog</p.Text>
+					</NodeLabel>
+					<Literal Bounds="20 35 225 55" DataType="String" Facade="String" Id="37" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Temperature has exceeded the maximum heat threshold.</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<Wire Id="38" Joints="N(37:Out)|(245,40) N(39:30)|(391,40)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 70 13 10" Docking="Left" Id="31" Terminals="28=32, 29, 30" />
+				<CaseStructure.Tunnel Bounds="396 40 13 10" Docking="Right" Id="39" Terminals="28=45, 29=47, 30=38" />
+			</CaseStructure>
+			<Wire Id="32" Joints="N(19:x &gt; y?)|(330,155) N(31:28)|(356,155)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="795 120 40 15" DataItem="40" Id="43" Label="44" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="43" Bounds="795 103 48 14" Id="44" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Message</p.Text>
+			</NodeLabel>
+			<Wire Id="45" Joints="N(39:28)|(769,125) N(43:Value)|(798,125)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="16" Interval="[double]1" Label="[UIModel]17" Left="[float]158" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]0" Top="[float]134" Value="{DataItemBinding Id=14}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="17" LabelOwner="[UIModel]16" Left="[float]158" Text="[string]Current Temperature (deg F)" Top="[float]114" Width="[float]151" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="24" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]48" Left="[float]158" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]232" UnitAnnotation="[string]" Value="{DataItemBinding Id=23}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="48" LabelOwner="[UIModel]24" Left="[float]158" Text="[string]Threshold (deg F)" Top="[float]212" Width="[float]93" xmlns="http://www.ni.com/PanelCommon" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]122" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="41" IsReadOnly="[bool]True" Label="[UIModel]49" Left="[float]451" MinHeight="[float]24" TabIndex="[int]2" Text="{DataItemBinding Id=40}" Top="[float]134" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]273" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="49" LabelOwner="[UIModel]41" Left="[float]451" Text="[string]Message" Top="[float]114" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="14" Name="Current Temperature (deg F)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="23" Name="Threshold (deg F)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x4059000000000000</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="40" Name="Message" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

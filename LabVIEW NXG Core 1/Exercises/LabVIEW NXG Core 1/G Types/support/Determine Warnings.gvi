@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="6150C19D3913827C2AC1D91DB01E73D0" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6815" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6815" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6815" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6815" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.9.1.6815" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
+		<ApplicationVersionInfo Build="4.9.1.6815" Name="LabVIEW NXG" Version="1.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" LocalizationPolicy="Localize" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">In this exercise, you put the inputs and outputs into a cluster.</p.UserDescription>
+		<Icon Id="18" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="20" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="21" Left="[float]0" TemplateName="GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="22" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="23" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 11,5 L 8,5 L 8,4 L 11,4 L 11,5 Z M 11,11 L 8,11 L 8,10 L 11,10 L 11,11 Z M 5.5,20 C 3.567,20 2,18.433 2,16.5 C 2,15.106 2.821,13.913 4,13.35 L 4,1.5 C 4,-0.5 7,-0.5 7,1.5 L 7,13.35 C 8.179,13.913 9,15.106 9,16.5 C 9,18.433 7.433,20 5.5,20  M 0,10 L 3,10 L 3,11 L 0,11 L 0,10 Z M 3,8 L 1,8 L 1,7 L 3,7 L 3,8 Z M 0,4 L 3,4 L 3,5 L 0,5 L 0,4 Z M 8,7 L 10,7 L 10,8 L 8,8 L 8,7 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]20" Id="180" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]12" Width="[float]11" />
+				<Path Data="[PathGeometry]M 6.499,0 C 2.91,0 0,2.91 0,6.499 C 0,10.09 2.91,13 6.499,13 C 10.09,13 13,10.09 13,6.499 C 13,2.91 10.09,0 6.499,0 Z M 7.499,11.05 L 5.106,11.05 L 5.106,9.486 L 7.499,9.486 L 7.499,11.05 Z M 9.606,5.439 C 9.488,5.746 9.324,6.012 9.11,6.237 C 8.898,6.461 8.642,6.664 8.344,6.841 C 8.045,7.02 7.709,7.181 7.334,7.328 L 7.334,8.68 L 5.248,8.68 L 5.248,6.681 C 5.529,6.606 5.782,6.529 6.009,6.45 C 6.236,6.371 6.474,6.243 6.723,6.064 C 6.957,5.906 7.139,5.722 7.271,5.513 C 7.403,5.303 7.469,5.066 7.469,4.801 C 7.469,4.405 7.342,4.124 7.087,3.955 C 6.832,3.787 6.474,3.703 6.012,3.703 C 5.728,3.703 5.406,3.765 5.049,3.887 C 4.692,4.009 4.365,4.167 4.069,4.36 L 3.832,4.36 L 3.832,2.553 C 4.085,2.447 4.474,2.336 4.999,2.218 C 5.525,2.102 6.058,2.043 6.599,2.043 C 7.575,2.043 8.349,2.258 8.922,2.69 C 9.494,3.121 9.781,3.684 9.781,4.38 C 9.781,4.78 9.722,5.133 9.606,5.439 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#ffafa20a" Height="[float]13" Id="181" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]4" Width="[float]13" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="175" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="14" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 65" Parameter="224" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="15" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="50 500 40 15" DataItem="14" Id="25" Label="26" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="25" Bounds="50 483 44 14" Id="26" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error In</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1200 500 40 15" DataItem="15" Id="27" Label="28" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="27" Bounds="1200 483 52 14" Id="28" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Error Out</p.Text>
+			</NodeLabel>
+			<Literal Bounds="485 220 135 15" DataType="String" Facade="String" Id="33" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>Heatstroke Warning</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<Literal Bounds="525 305 90 15" DataType="String" Facade="String" Id="34" Label="35" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>No Warning</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<NodeLabel AttachedTo="34" Bounds="525 284 6 18" Id="35" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>f</p.Text>
+			</NodeLabel>
+			<Literal Bounds="750 345 110 15" DataType="String" Facade="String" Id="36" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>Freeze Warning</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<PropertyNode Bounds="190 120 170 65" HasErrorTerminals="False" Id="37" InstanceDataType="@2ac8d973cbd546bead50f3209ad4fdfc" Label="148" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+				<PropertyItemTerminal DataType="Double" Hotspot="170 15" Id="c0t0v" Path="Current Temperature" Usage="Optional" />
+				<PropertyItemTerminal DataType="Double" Hotspot="170 30" Id="c1t0v" Path="Max Temperature" Usage="Optional" />
+				<PropertyItemTerminal DataType="Double" Hotspot="170 45" Id="c2t0v" Path="Min Temperature" Usage="Optional" />
+			</PropertyNode>
+			<PropertyNode Bounds="1020 120 135 50" HasErrorTerminals="False" Id="38" InstanceDataType="@2ac8d973cbd546bead50f3209ad4fdfc" Label="149" ListViewAutoSize="False" Mode="InstanceProperties" Template="List">
+				<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 15" Id="c0t0v" Path="Warning?" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 30" Id="c1t0v" Path="Warning Text" Usage="Required" />
+			</PropertyNode>
+			<Select Bounds="635 245 40 40" Id="39" />
+			<IsGreaterOrEqual Bounds="460 250 30 30" Id="40" />
+			<IsLessOrEqual Bounds="460 365 30 30" Id="41" />
+			<Select Bounds="875 360 40 40" Id="42" />
+			<IsNotEqual Bounds="945 305 30 30" Id="43" />
+			<Comment Bounds="440 415 300 55" Id="44" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>If Current Temperature &lt;= Min Temperature, output a Freeze Warning.</p.Text>
+			</Comment>
+			<Comment Bounds="440 155 320 50" Id="45" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>If Current Temperature &gt;= Max Temperature, output a Heatstroke Warning.</p.Text>
+			</Comment>
+			<Wire Id="104" Joints="N(34:Out)|(615,310) h(10) B(1) N(43:x)|(945,310) B(1) v(-30) N(39:f)|(635,280)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="106" Joints="N(39:s? t:f)|(675,265) h(10) v(130) N(42:f)|(875,395)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="107" Joints="N(41:x &lt;= y?)|(490,380) N(42:s)|(875,380)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="108" Joints="N(36:Out)|(860,350) h(5) v(15) N(42:t)|(875,365)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="109" Joints="N(33:Out)|(620,225) h(5) v(25) N(39:t)|(635,250)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="110" Joints="N(40:x &gt;= y?)|(490,265) N(39:s)|(635,265)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="111" Joints="N(38:instance out)|(1155,125) N(225:Value)|(1203,125)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="113" Joints="N(43:x != y?)|(975,320) h(15) v(-185) N(38:c0t0v)|(1020,135)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="114" Joints="N(42:s? t:f)|(915,380) h(20) B(1) h(70) v(-230) N(38:c1t0v)|(1020,150) B(1) v(-55) N(43:y)|(945,325)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="115" Joints="N(37:c2t0v)|(360,165) h(45) v(220) N(41:y)|(460,385)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="116" Joints="N(37:c1t0v)|(360,150) h(60) v(120) N(40:y)|(460,270)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="117" Joints="N(37:c0t0v)|(360,135) h(75) v(120) B(2) N(40:x)|(460,255) B(2) v(115) N(41:x)|(460,370)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="118" Joints="N(25:Value)|(90,505) N(27:Value)|(1203,505)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="37" Bounds="190 103 99 14" Id="148" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Cluster Properties</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="38" Bounds="1020 103 99 14" Id="149" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Cluster Properties</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="45 120 40 15" DataItem="175" Id="178" Label="179" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@2ac8d973cbd546bead50f3209ad4fdfc" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="178" Bounds="45 103 92 14" Id="179" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Weather Data In</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1200 120 40 15" DataItem="224" Id="225" Label="226" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@2ac8d973cbd546bead50f3209ad4fdfc" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="225" Bounds="1200 103 101 14" Id="226" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Weather Data Out</p.Text>
+			</NodeLabel>
+			<Wire Id="271" Joints="N(178:Value)|(85,125) N(37:instance in)|(190,125)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="272" Joints="N(37:instance out)|(360,125) N(38:instance in)|(1020,125)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="252" IsTabStop="[bool]True" Label="[UIModel]259" Left="[float]106" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]493" Value="{DataItemBinding Id=14}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="253" Label="[UIModel]254" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="254" LabelOwner="[UIModel]253" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="255" Label="[UIModel]256" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="256" LabelOwner="[UIModel]255" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="257" Label="[UIModel]258" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="258" LabelOwner="[UIModel]257" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="259" LabelOwner="[UIModel]252" Left="[float]106" Text="[string]Error In" Top="[float]473" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="261" IsTabStop="[bool]True" Label="[UIModel]268" Left="[float]494" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]493" Value="{DataItemBinding Id=15}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="262" IsReadOnly="[bool]True" Label="[UIModel]263" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="263" LabelOwner="[UIModel]262" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="264" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]265" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="265" LabelOwner="[UIModel]264" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="266" IsReadOnly="[bool]True" Label="[UIModel]267" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="267" LabelOwner="[UIModel]266" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="268" LabelOwner="[UIModel]261" Left="[float]494" Text="[string]Error Out" Top="[float]473" Width="[float]49" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@2ac8d973cbd546bead50f3209ad4fdfc" Height="[float]268" Id="227" IsTabStop="[bool]True" Label="[UIModel]238" Left="[float]105" TabIndex="[int]2" Top="[float]141" Value="{DataItemBinding Id=175}" Width="[float]178" xmlns="http://www.ni.com/PanelCommon">
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="228" Interval="[double]1" Label="[UIModel]232" Left="[float]4" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Current\ Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="229" Interval="[double]1" Label="[UIModel]233" Left="[float]4" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Max\ Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="230" Interval="[double]1" Label="[UIModel]234" Left="[float]4" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=Min\ Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<LED BaseName="[string]Round LED" FalseContent="[string]Off" Height="[float]24" Id="231" IsReadOnly="[bool]False" Label="[UIModel]235" Left="[float]4" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" TabIndex="[int]3" Top="[float]180" TrueContent="[string]On" Value="{ClusterBinding FieldName=Warning?}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="232" LabelOwner="[UIModel]228" Left="[float]4" Text="[string]Current Temperature" Top="[float]4" Width="[float]111" />
+				<Label Height="[float]16" Id="233" LabelOwner="[UIModel]229" Left="[float]4" Text="[string]Max Temperature" Top="[float]56" Width="[float]94" />
+				<Label Height="[float]16" Id="234" LabelOwner="[UIModel]230" Left="[float]4" Text="[string]Min Temperature" Top="[float]108" Width="[float]92" />
+				<Label Height="[float]16" Id="235" LabelOwner="[UIModel]231" Left="[float]4" Text="[string]Warning?" Top="[float]160" Width="[float]51" />
+				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="236" IsReadOnly="[bool]False" Label="[UIModel]237" Left="[float]4" MinHeight="[float]24" TabIndex="[int]4" Text="{ClusterBinding FieldName=Warning\ Text}" Top="[float]232" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]162" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="237" LabelOwner="[UIModel]236" Left="[float]4" Text="[string]Warning Text" Top="[float]212" Width="[float]71" />
+			</Cluster>
+			<Label Height="[float]16" Id="238" LabelOwner="[UIModel]227" Left="[float]105" Text="[string]Weather Data In" Top="[float]121" Width="[float]87" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@2ac8d973cbd546bead50f3209ad4fdfc" Height="[float]268" Id="240" IsTabStop="[bool]True" Label="[UIModel]251" Left="[float]493" TabIndex="[int]3" Top="[float]141" Value="{DataItemBinding Id=224}" Width="[float]178" xmlns="http://www.ni.com/PanelCommon">
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="241" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" Label="[UIModel]245" Left="[float]4" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Current\ Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="242" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" Label="[UIModel]246" Left="[float]4" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Max\ Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="243" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[double]1" Label="[UIModel]247" Left="[float]4" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=Min\ Temperature}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<LED BaseName="[string]Round LED" FalseContent="[string]Off" Height="[float]24" Id="244" IsReadOnly="[bool]True" Label="[UIModel]248" Left="[float]4" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" TabIndex="[int]3" Top="[float]180" TrueContent="[string]On" Value="{ClusterBinding FieldName=Warning?}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="245" LabelOwner="[UIModel]241" Left="[float]4" Text="[string]Current Temperature" Top="[float]4" Width="[float]111" />
+				<Label Height="[float]16" Id="246" LabelOwner="[UIModel]242" Left="[float]4" Text="[string]Max Temperature" Top="[float]56" Width="[float]94" />
+				<Label Height="[float]16" Id="247" LabelOwner="[UIModel]243" Left="[float]4" Text="[string]Min Temperature" Top="[float]108" Width="[float]92" />
+				<Label Height="[float]16" Id="248" LabelOwner="[UIModel]244" Left="[float]4" Text="[string]Warning?" Top="[float]160" Width="[float]51" />
+				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="249" IsReadOnly="[bool]True" Label="[UIModel]250" Left="[float]4" MinHeight="[float]24" TabIndex="[int]4" Text="{ClusterBinding FieldName=Warning\ Text}" Top="[float]232" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]162" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="250" LabelOwner="[UIModel]249" Left="[float]4" Text="[string]Warning Text" Top="[float]212" Width="[float]71" />
+			</Cluster>
+			<Label Height="[float]16" Id="251" LabelOwner="[UIModel]240" Left="[float]493" Text="[string]Weather Data Out" Top="[float]121" Width="[float]97" xmlns="http://www.ni.com/PanelCommon" />
+		</CPFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="14" Name="Error In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;Right-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error. "</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="2" DataType="Error" Id="15" Name="Error Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error out&lt;/B&gt; passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;Right-click the &lt;B&gt;error out&lt;/B&gt; indicator on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@2ac8d973cbd546bead50f3209ad4fdfc" Id="175" Name="Weather Data In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0x0</Field1>
+					<Field2>0x0</Field2>
+					<Field3>0x0</Field3>
+					<Field4>False</Field4>
+					<Field5>""</Field5>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@2ac8d973cbd546bead50f3209ad4fdfc" Id="224" Name="Weather Data Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0x0</Field1>
+					<Field2>0x0</Field2>
+					<Field3>0x0</Field3>
+					<Field4>False</Field4>
+					<Field5>""</Field5>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="2ac8d973cbd546bead50f3209ad4fdfc">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Current Temperature" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Temperature" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Min Temperature" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Warning?" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Warning Text" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
